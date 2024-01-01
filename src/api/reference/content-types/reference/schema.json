@@ -17,6 +17,12 @@
     },
     "caption": {
       "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
     }
   }
 }
