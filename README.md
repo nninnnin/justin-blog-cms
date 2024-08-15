@@ -11,12 +11,12 @@
 
 ---
 
-배포된 PostgreSQL의 정보를 입력합니다.
+사용중인 PostgreSQL의 정보를 입력합니다.
 
 `DATABASE_NAME`: 데이터베이스 이름  
 `DATABASE_USERNAME`: 데이터베이스 유저명  
-`DATABASE_PASSWORD`: 데이터베이스 비밀번호  
-`DATABASE_URL`: 위의 세가지 정보가 모두 포함된 데이터베이스 접속용 URL
+`DATABASE_PASSWORD`: 데이터베이스 비밀번호
+`DATABASE_URL`: 위의 세가지 정보가 모두 포함된 데이터베이스 접속용 URL로, `npm run prod` 등의 명령어를 사용해 프로덕션 모드로 연결할 경우 위의 세가지 정보 대신 이것을 사용하여 연결합니다.
 
 Strapi 에서 사용되는 정보들입니다.
 
